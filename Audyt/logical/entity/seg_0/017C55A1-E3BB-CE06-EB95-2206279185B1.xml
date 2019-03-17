@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="017C55A1-E3BB-CE06-EB95-2206279185B1" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:39:50 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PUBLIKACJI" id="BFAF4CEA-DBD6-E936-CCB3-A0E1153916BC">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:01 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_WYDAWNICTWA" id="CD89FB9D-DC81-B923-862E-F1E83AA2A9A1">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:09 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="907416AA-3603-9A5E-B357-97814444B23E">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:20 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYP_PUBLIKACJI" id="A294D268-D692-1F4B-7577-BAFEBF29EAA3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:26 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KTO_DODAL" id="2F479106-81EC-7AA8-3ECC-84A421104F06">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:36 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LICZBA_STRON" id="7AA89CE1-6ED6-7B4F-833E-44B860920C45">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:48 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KTO_ZMIENIL" id="378B9639-E4EF-2861-CE7B-86771C4F15FF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:57 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KIEDY_ZMIENIL" id="E5705CDC-373B-A807-E903-42DAECC05F70">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:41:10 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D31022A-6135-3818-CF6E-32C0B4409D51" name="PUBLIKACJA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:40:08 UTC</createdTime>
+<ownerDesignName>Audyt</ownerDesignName>
+<engineerTo>
+<item key="DDB8C83D-255E-EA44-FF60-A629E40361F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFAF4CEA-DBD6-E936-CCB3-A0E1153916BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
